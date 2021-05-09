@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+}
+/*  nav bar  */
+.inline_block {
+    display: inline-block;
+    vertical-align: top;
+}
+nav {
+    width: 100%;
+    padding: 1%;
+    align-content: left;
+}
+nav ul {
+    width: 50%;
+    margin-left: auto;
+}
+nav li {
+    padding: 20px; 
+    font-size: 25px;
+    color: #E8DCD7;
+    font-family: mostra-nuova, sans-serif;
+}
+/*  work sections */
+h1 {
+    color: #E8DCD7;
+    font-family: mostra-nuova, sans-serif;
+}
+h4 {
+    color: #E8DCD7;
+    font-size: 20px; 
+    font-family: mostra-nuova, sans-serif;
+}
+p {
+    color: #E8DCD7;
+    font-family: Roboto Condensed;
+    font-size: 16px; 
+}
+button {
+    font-family: Roboto Condensed; 
+    font-size: 18px; 
+    background-color: #945d5e;
+    color: white;
+    border-radius: 8px; 
+    border: none; 
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: black;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
+
+/*   footer   */
+footer {
+    background-color: #84948c;
+    padding: 1%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer ul {
+    width: 50%;
+    margin-left: auto;
+}
+footer li {
+    padding: 20px;
+    font-size: 18px; 
+    font-family: mostra-nuova, sans-serif;
+    color: #2a2a2a;
+}
