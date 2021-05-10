@@ -21,6 +21,12 @@ nav li {
     color: #E8DCD7;
     font-family: mostra-nuova, sans-serif;
 }
+.active {
+  color: #84948c;
+}
+a.hover {
+  color: red;
+}
 /*  work sections */
 h1 {
     color: #E8DCD7;
@@ -47,6 +53,9 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+button:hover {
+  border: 2px solid #E8DCD7;
 }
 .myWork {
   padding: 60px 30px;

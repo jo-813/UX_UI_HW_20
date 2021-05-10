@@ -10,6 +10,7 @@ nav {
     width: 100%;
     padding: 1%;
     align-content: left;
+    
 }
 nav ul {
     width: 50%;
@@ -21,10 +22,8 @@ nav li {
     color: #E8DCD7;
     font-family: mostra-nuova, sans-serif;
 }
-nav-item {
-    font-size: 25px;
-    color: #E8DCD7;
-    font-family: mostra-nuova, sans-serif;
+.active {
+    color: #84948c;
 }
 /*  hero image  */
 .heroImg {
@@ -55,6 +54,10 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+
+}
+button:hover {
+    border: 2px solid #E8DCD7;
 }
 /*   footer   */
 footer {

@@ -37,10 +37,21 @@ div.col-sm {
     margin: 15px; 
 }
 h5.card-title {
-    font-family: mostra-nuova, sans-serif;
+    font-family: mostra-nuova, sans-serif, bold;
+    font-size: 30px; 
 }
 p.card-text {
     font-family: Roboto Condensed;
+}
+p {
+    color: black;
+    font-family: Roboto Condensed;
+    font-size: 16px;
+}
+li {
+    color: black;
+    font-family: Roboto Condensed;
+    font-size: 16px;
 }
 /*   footer   */
 footer {
